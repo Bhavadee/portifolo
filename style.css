@@ -1,0 +1,159 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+color #9600FF#AEBAF8
+#1A1E26
+.navbar
+ #FFE600; black com
+
+btn
+{
+ color: #252525;
+    text-decoration: none;
+    background: #99D930;
+}
+{
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+   height: 70px;
+    background-color:white;
+}
+
+#color
+{
+    color:#7510F7;;
+    font-weight: 900;
+    border: 2px solid #7510F7;
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: white;
+}
+#color:hover
+{
+    background-color: #7510F7;
+    color:white;
+}
+
+.container
+{
+   background:#7510F7;
+   padding-bottom:14rem;
+   padding:5rem 1.5rem;
+   text-align:center;
+   color : white;
+   height:100vh
+
+}
+
+.jumbotron
+{
+   background:#7510F7;
+}
+.just
+{
+    color: #7510F7;
+    margin-top: 180px;
+    margin-left: 120px;
+   
+}
+.kk
+{
+        display: block;
+        margin-left: 40%;
+        margin-right: 50%;
+      margin-top: 60px;
+}
+.project
+{
+    color:#7510F7;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    height:420px;
+    box-shadow: 10px 20px;
+  }
+  .project-image {
+    height: calc(100% - 6.1rem);
+    width: 100%;
+    object-fit: cover;
+  }
+.containet
+{
+    background-color: white;
+    grid-gap: 20px 20px;
+    margin: 50px;
+    
+}
+.project-title
+{
+    background-color: gray;
+    text-align: center;
+    font-size: 28px;
+    border: 3px solid white;
+    color:white;
+    font-weight: 300;
+    
+}
+.koko
+{
+    margin: 90px 0px 0px 0px;
+    background-color:#7510F7;
+    bottom: 0;
+}
+.ba{
+text-align:center;
+padding-top: 40px;
+color:white;
+font-size: 30px;
+font-weight: 500;
+}
+.fa
+{
+    color:white;
+  margin-left: 190px;
+    font-size: 20px;
+    font-weight: 500;
+    padding:20px;
+    margin-top: 90px;
+}
+
+.fa:hover {
+    color:whitesmoke;
+    transform: scale(1.5);
+    
+}
+.fotter
+{
+  color:white;
+  display:flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 120px;
+  border-top: 3px solid white;
+}
+.mar
+{
+  
+   margin-top: 40px;
+}
+.bl
+{
+    color: white;
+}
+.bl:hover
+{
+    color: black;
+    transform: scale(2.5);
+}
+ 
