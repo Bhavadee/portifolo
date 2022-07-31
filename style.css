@@ -200,15 +200,14 @@ padding: 0;
 }
 .project-title
 {
+    font-display:inherit;
+    text-decoration:none;
     background-color: #7510F7;
     text-align: center;
     font-size: 28px;
     border: 3px solid white;
     color:white;
     font-weight: 300;
-    text-decoration: none;
-    
-    
 }
 .project-title:hover
 {
