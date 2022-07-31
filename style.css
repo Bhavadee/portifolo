@@ -4,7 +4,7 @@ body
     font-family: 'Poppins';
 }
 .fff {
-    color:#7510F7;
+    color:#2C3333;
     font-size: 50px;
     font-weight: 800;
 }
@@ -35,6 +35,13 @@ header{
     display:flex;
     justify-content: space-between;
     padding: 0.5rem;
+    
+}
+.bbb
+{
+    display: flex;
+    justify-content: center;
+    background-color: #A5C9CA;
 }
 .logo
 {
@@ -111,7 +118,7 @@ padding: 0;
 .hachu,
 .hachu::before,
 .hachu::after {
-    background:#99D930;
+    background:#7510F7;
 }
 .hamburger::before,
 .hamburger::after {
@@ -159,10 +166,18 @@ padding: 0;
    height:100vh
 
 }
+.con
+{
+    background-color: #A5C9CA;
+    color:#2C3333;
+}
 
 .jumbotron
 {
    background:#7510F7;
+}
+.jubo{
+    background-color: #A5C9CA;
 }
 .just
 {
