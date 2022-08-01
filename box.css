@@ -1,0 +1,167 @@
+body
+{
+    background-color: whitesmoke;
+}
+.projectbox
+{
+    border: 2px solid BLACK;
+    max-width: 500px;
+    margin: 8% 5%;
+    font-size: 40px;
+    
+    box-shadow: 7px 7px 7px black;
+    color:black;
+    transition: 0.6s;
+    background-color: #fff;
+
+}
+
+  .projectbox:hover {
+    transform: translate(50px, 10px);
+  }
+.project-image {
+    height: calc(100% - 6.1rem);
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   
+  }
+  
+  .grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,25rem);
+    justify-content: space-evenly;
+}
+.project-title
+{
+    font-family:"poppins";
+    margin: 0%;
+    color:#7510F7;
+    
+}
+.projecttext
+{
+  height: fit-content;
+  font-size: 18px;
+  padding: 24px;
+  
+}
+.projectabout
+{
+    font-family: 'Edu TAS Beginner',' cursive';
+    padding: 15px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+.btnabout
+{
+    background-color: #7510F7;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-size: 30px;
+    color: #fff;
+    width:200px;
+    transition: 0.6s;
+}
+.btnabout:hover{
+    background-color: #fff;  
+    color: #7510F7; 
+    border: 2px solid #7510F7;
+    transform: translate(50px, 10px);
+}
+.mainheading
+{
+    font-size: 40px;
+    text-align: center;
+    color: #7510F7;
+   margin: 2% auto;
+   font-family: 'Uchen', serif;
+   font-weight: 800;
+}
+.nav
+{
+    position: fixed;
+    background-color: #303030;
+    color: #fff;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    Z-index:100;
+    transform : translatey(100%);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+}
+.nav-open .nav{
+    
+    transform : translatex(0%)
+}
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav__list
+{
+list-style:none;
+height:100%;
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+margin: auto;
+padding: 0;
+}
+.nav__link {
+    color: inherit;
+    font-weight: 900px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    max-width: 60%;
+}
+.nav__link:hover {
+    color:#7510F7;
+    font-size: 2.7rem;
+}
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
+
+.hamburger {
+    display: block;
+    position: fixed;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    background:#7510F7;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+.hachu,
+.hachu::before,
+.hachu::after {
+    background:#7510F7;
+}
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px; }
+
+
+  
