@@ -201,39 +201,15 @@ padding: 0;
 }
 
 
-  .project-image {
-    height: calc(100% - 6.1rem);
-    width: 100%;
-    object-fit: cover;
-  }
+ 
 .containet
 {
-    background-color: white;
-    grid-gap: 20px 20px;
-    margin: 50px;
-    
+    background-color: white;  
 }
-.project-title
-{
-    font-display:inherit;
-    text-decoration:none;
-    background-color: #7510F7;
-    text-align: center;
-    font-size: 28px;
-    border: 3px solid white;
-    color:white;
-    font-weight: 300;
-}
-.project-title:hover
-{
-    background-color: white;
-    color:#7510F7;
-    border: 3px solid #7510F7;
-    
-}
+
 .koko
 {
-    margin: 100px 0px 0px 0px;
+    margin: 150px 0px 0px 0px;
     background-color:#7510F7;
     bottom: 0;
 }
@@ -300,3 +276,167 @@ font-weight: 500;
     box-shadow: 10px 20px;
   }
   
+  .projectbox
+{
+    border: 2px solid BLACK;
+    max-width: 500px;
+    margin: 8% 5%;
+    font-size: 40px;
+    
+    box-shadow: 7px 7px 7px black;
+    color:black;
+    transition: 0.6s;
+    background-color: #fff;
+
+}
+
+  .projectbox:hover {
+    transform: translate(50px, 10px);
+  }
+.project-image {
+    height: calc(100% - 6.1rem);
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   
+  }
+  
+  .grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,25rem);
+    justify-content: space-evenly;
+}
+.project-title
+{
+    font-family:"poppins";
+    margin: 0%;
+    color:#7510F7;
+    
+}
+.projecttext
+{
+  height: fit-content;
+  font-size: 18px;
+  padding: 24px;
+  
+}
+.projectabout
+{
+    font-family: 'Edu TAS Beginner',' cursive';
+    padding: 15px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+.btnabout
+{
+    background-color: #7510F7;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-size: 30px;
+    color: #fff;
+    width:200px;
+    transition: 0.6s;
+}
+.btnabout:hover{
+    background-color: #fff;  
+    color: #7510F7; 
+    border: 2px solid #7510F7;
+    transform: translate(50px, 10px);
+}
+.mainheading
+{
+    font-size: 40px;
+    text-align: center;
+    color: #7510F7;
+   margin: 2% auto;
+   font-family: 'Uchen', serif;
+   font-weight: 800;
+}
+.kk:hover{
+    position: relative;
+}
+.seemore
+{
+  position: absolute;
+  right:0;
+  margin:1%;
+  
+}
+.kk{
+animation:ballmove 2s 1;
+}
+@-webkit-keyframes ballmove{
+0%{
+transform:rotateZ(-360deg);
+top:0%;
+right:93%;
+animation-timing-function:ease-in;
+}
+12.5%{
+right:93%;
+top:82%;
+animation-timing-function:ease-out;
+}
+25%{
+right:77.5%;
+top:20.5%;
+animation-timing-function:ease-in;
+}
+37.5%{
+right:62%;
+top:82%;
+animation-timing-function:ease-out;
+}
+50%{
+right:46.5%;
+top:35.87%;
+animation-timing-function:ease-in;
+}
+62.5%{
+right:31%;
+top:82%;
+animation-timing-function:ease-out;
+}
+75%{
+right:15.5%;
+top:47.4%;
+animation-timing-function:ease-in;
+}
+100%{
+right:0%;
+top:82%;
+}
+}
+
+.aboutmetext
+{
+    font-weight: 35px;
+     letter-spacing: 1px;
+     word-wrap: break-word;
+    font-size: 25px;
+    margin:4%;
+    text-align: center;
+    
+}
+.containe
+{
+    background-color:#7510F7;
+    padding: 3.9%;
+    font-family: 'Edu TAS Beginner',' cursive';
+    color:white;
+}
+.aboutmetitle
+{
+    text-align:center; 
+    font-weight:900;
+    font-family: 'Uchen', serif;
+}
+.ju{
+    font-family: 'poppins';
+   
+}
+.bhavi
+{
+    font-family: 'Sacramento', cursive;
+}

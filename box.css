@@ -1,6 +1,7 @@
 body
 {
     background-color: whitesmoke;
+    font-family: 'poppins';
 }
 .projectbox
 {
@@ -163,5 +164,52 @@ padding: 0;
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
+
+  .projectbox:hover{
+    animation: iggle 5s ;
+  }
+  
+  /* Keyframes */
+  @keyframes iggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  .nav{
+    font-family: 'poppins';
+}
+
+
+  .classlinks
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #7510F7;
+   
+  }
+  .fa{
+    padding: 2%;
+    color: #fff;
+  }
 
   

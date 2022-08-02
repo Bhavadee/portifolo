@@ -1,0 +1,18 @@
+.body
+{
+    font-family: 'poppins';
+}
+.contactheading
+{
+    text-align: center;
+    margin:12% auto;
+}
+.fa
+{
+    text-align: center;
+}
+.classlinks
+{
+    display:flex;
+    justify-content: space-evenly;
+}
