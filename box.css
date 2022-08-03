@@ -70,6 +70,7 @@ body
     color: #7510F7; 
     border: 2px solid #7510F7;
     transform: translate(50px, 10px);
+    opacity:0.5;
 }
 .mainheading
 {
