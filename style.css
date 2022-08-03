@@ -235,9 +235,10 @@ font-weight: 500;
 }
 
 .fa:hover {
-    color:whitesmoke;
-    transform: scale(1.5);
-    
+   background-color: white;
+    color: #7510F7;
+    border-radius: 50%;
+    padding: 2%;
 }
 .fotter
 {

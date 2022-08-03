@@ -212,5 +212,10 @@ padding: 0;
     padding: 2%;
     color: #fff;
   }
-
+.fa:hover{
+    border-radius: 50%;
+    padding: 2%;
+    background-color: #fff;
+    color: #7510F7;
+}
   
